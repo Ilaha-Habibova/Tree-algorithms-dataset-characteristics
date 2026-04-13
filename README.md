@@ -1,6 +1,8 @@
 # Tree-algorithms-dataset-characteristics
-Comparison of tree-based machine learning algorithms for classification tasks with different dataset characteristics
+Comparison of tree-based machine learning methods for classification tasks with different dataset characteristics
 
 Bachelor thesis experimental repository.
 
 Author: Ilaha Habibova
+
+Tree-based machine learning (ML) methods are widely used for classification tasks on tabular data due to their interpretability, flexibility, and strong predictive performance. However, the performance of such methods is highly influenced by characteristics of datasets, including dataset size, class imbalance and class type (binary and multi-class) in classification tasks. Despite their popularity, there is limited systematic research that jointly analyzes the impact of these factors on different tree-based algorithms. The thesis offers an overall comparative analysis of seven tree-based algorithms: Classification and Regression Trees (CART), Random Forest (RF), Extra Trees (ET), Gradient Boosting (GB), XGBoost, LightGBM, and CatBoost.  Binary and multi-class classification cases are represented by four datasets and various dataset variants are created under controlled conditions by systematically changing dataset size and class imbalance. Stratified five-fold cross-validation and various performance metrics are used to evaluate model performance. Moreover, statistical significance analysis (Friedman and Nemenyi tests) is performed in order to confirm the differences in algorithm performance. The results show that boosting-based methods, particularly CatBoost, consistently demonstrate the most stable and highest predictive performance across varying dataset sizes and class imbalance levels.
