@@ -1,0 +1,15 @@
+dataset,class_type,framework_branch,primary_recommendation,alternatives,model,balanced_accuracy,training_time,model_size_kb,f1,precision,recall,macro_f1,macro_precision,macro_recall
+HTRU2,binary,binary moderate/high imbalance branch,CatBoost,"LightGBM, XGBoost",DecisionTree,0.9111319450826685,0.3668836116790771,5.4150390625,0.876363754883911,0.9303512954327224,0.828537331244872,,,
+HTRU2,binary,binary moderate/high imbalance branch,CatBoost,"LightGBM, XGBoost",RandomForest,0.9206204508025004,13.709730195999146,8673.2890625,0.8878112403567104,0.9325308826301917,0.8474528231520846,,,
+HTRU2,binary,binary moderate/high imbalance branch,CatBoost,"LightGBM, XGBoost",ExtraTrees,0.9179045300008282,1.8577469825744628,23706.9814453125,0.8849009598142329,0.9327760875345336,0.8419594241813977,,,
+HTRU2,binary,binary moderate/high imbalance branch,CatBoost,"LightGBM, XGBoost",GradientBoosting,0.919430775483554,7.168162393569946,972.28125,0.8867299119264548,0.9330480997339569,0.8450119340642948,,,
+HTRU2,binary,binary moderate/high imbalance branch,CatBoost,"LightGBM, XGBoost",XGBoost,0.9239443102978011,0.40205678939819334,325.89453125,0.891419883010102,0.9323418248521161,0.8541620049228016,,,
+HTRU2,binary,binary moderate/high imbalance branch,CatBoost,"LightGBM, XGBoost",LightGBM,0.9231845131403714,0.4345831871032715,669.9384765625,0.8893307617019801,0.9291623038431206,0.8529499515178639,,,
+HTRU2,binary,binary moderate/high imbalance branch,CatBoost,"LightGBM, XGBoost",CatBoost,0.9217169806850555,3.0560622692108153,202.0751953125,0.8881107671890781,0.9301409021688904,0.8498918475423286,,,
+Dermatology,multi-class,multi-class moderate/high imbalance branch,CatBoost,LightGBM,DecisionTree,0.9206526967396531,0.007923603057861328,4.1025390625,,,,0.921851142398084,0.9329922251661383,0.9206526967396531
+Dermatology,multi-class,multi-class moderate/high imbalance branch,CatBoost,LightGBM,RandomForest,0.9716666666666667,0.2624350070953369,437.248046875,,,,0.976171533195022,0.983814735988649,0.9716666666666667
+Dermatology,multi-class,multi-class moderate/high imbalance branch,CatBoost,LightGBM,ExtraTrees,0.9827777777777778,0.24738764762878418,1068.7470703125,,,,0.9835053333817637,0.9877389277389277,0.9827777777777778
+Dermatology,multi-class,multi-class moderate/high imbalance branch,CatBoost,LightGBM,GradientBoosting,0.9766931216931217,1.4073460578918457,1515.8193359375,,,,0.9773893462461686,0.9821445221445222,0.9766931216931217
+Dermatology,multi-class,multi-class moderate/high imbalance branch,CatBoost,LightGBM,XGBoost,0.9702116402116403,0.35622406005859375,1584.4755859375,,,,0.9714601118940134,0.9772238872238873,0.9702116402116403
+Dermatology,multi-class,multi-class moderate/high imbalance branch,CatBoost,LightGBM,LightGBM,0.9702116402116403,0.2842109203338623,1956.6474609375,,,,0.9714601118940134,0.9772238872238873,0.9702116402116403
+Dermatology,multi-class,multi-class moderate/high imbalance branch,CatBoost,LightGBM,CatBoost,0.9790740740740741,0.19274744987487794,198.0361328125,,,,0.9802112157347047,0.9851748251748251,0.9790740740740741
