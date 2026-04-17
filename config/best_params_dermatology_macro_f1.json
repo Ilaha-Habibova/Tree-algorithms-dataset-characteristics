@@ -1,0 +1,69 @@
+{
+    "DecisionTree": {
+        "best_params": {
+            "model__min_samples_split": 10,
+            "model__min_samples_leaf": 4,
+            "model__max_depth": 10
+        },
+        "best_score": 0.921851142398084
+    },
+    "RandomForest": {
+        "best_params": {
+            "model__n_estimators": 100,
+            "model__min_samples_split": 10,
+            "model__min_samples_leaf": 2,
+            "model__max_features": "sqrt",
+            "model__max_depth": 30
+        },
+        "best_score": 0.976171533195022
+    },
+    "ExtraTrees": {
+        "best_params": {
+            "model__n_estimators": 200,
+            "model__min_samples_split": 2,
+            "model__min_samples_leaf": 4,
+            "model__max_features": "sqrt",
+            "model__max_depth": 10
+        },
+        "best_score": 0.9835053333817637
+    },
+    "GradientBoosting": {
+        "best_params": {
+            "model__subsample": 1.0,
+            "model__n_estimators": 200,
+            "model__min_samples_split": 2,
+            "model__max_features": "log2",
+            "model__max_depth": 3,
+            "model__learning_rate": 0.01
+        },
+        "best_score": 0.9773893462461686
+    },
+    "XGBoost": {
+        "best_params": {
+            "model__subsample": 0.8,
+            "model__n_estimators": 300,
+            "model__max_depth": 3,
+            "model__learning_rate": 0.01,
+            "model__colsample_bytree": 0.8
+        },
+        "best_score": 0.9714601118940134
+    },
+    "LightGBM": {
+        "best_params": {
+            "model__num_leaves": 70,
+            "model__n_estimators": 200,
+            "model__learning_rate": 0.01,
+            "model__feature_fraction": 0.8
+        },
+        "best_score": 0.9714601118940134
+    },
+    "CatBoost": {
+        "best_params": {
+            "model__learning_rate": 0.05,
+            "model__l2_leaf_reg": 3,
+            "model__iterations": 200,
+            "model__depth": 4
+        },
+        "best_score": 0.9802112157347047
+    }
+}
